@@ -17,6 +17,9 @@ makeCacheMatrix <- function(x = matrix()){
 }
 
 ## Write a short comment describing this function
+## This function will check if the inversed matrix already exist in cache
+## If so, message "getting cached data" is displayed
+## and the inversed matrix is returned.
 cacheSolve <- function(x, ...){
 	i <- x$getinverse()
 	if(!is.null(i)){
