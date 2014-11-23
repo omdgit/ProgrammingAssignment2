@@ -41,6 +41,8 @@ cacheSolve <- function(x, ...){
 	i
 }
 
+## Example
+## Creates a matrix that is inversible
 my.input <- matrix(c(1, 0, 5, 2, 1, 6, 3, 4, 0), nrow = 3, ncol = 3)
 mymatrix <- makeCacheMatrix(my.input)
 mymatrix$get()
